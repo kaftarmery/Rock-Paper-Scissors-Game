@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   <title>Rock Paper Scissors</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <audio autoplay loop controls>
+      <source src="/audio/8bit-music-for-game-68698.mp3" type="audio/mp3">
+   </audio> 
+
+<section class="title">
+   <h1>Rock Paper Scissors</h1>
+   <p>Show your super hero powers. <br> Make a move. <br> <span>But choose wisely...</span></p>
+</section>
+
+
+
+<section class="choiceContainer">
+<button class="choiceBtn"><img src="/images/ROCK.svg" alt="ROCK">ROCK</button>
+<button class="choiceBtn"><img src="/images/PAPER.svg" alt="PAPER">PAPER</button>
+<button class="choiceBtn"><img src="/images/SCISSORS.svg" alt="SCISSORS">SCISSORS</button>
+</section>
+
+
+<!-- 
+<div class="titleChoices">
+   <p class="paperTitle">PAPER</p>
+   <p>ROCK</p>
+   <p>SCISSORS</p>  
+</div> -->
+
+<div class="winnersBox">
+   <p>HERO: <span id="final-Result"> </span></p>
+</div>
+
+<div class="playersBox">
+   <p>YOU: <br> <span id="userText"> </span></p>
+
+   <p>COMPUTER: <br> <span id="computerText"> </span></p>
+</div>
+
+
+   
+   <script src="rpsgame.js"></script>
+</body>
+</html>
